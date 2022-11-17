@@ -522,9 +522,11 @@ ul{
     height: 250px;
 }
 
+
+
 }
 
-/* @media screen and (min-width: 1073px){
+@media screen and (min-width: 1073px){
     .contenedor-form {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -538,4 +540,4 @@ ul{
     text-align: left;
     padding: 1rem;
    }
-} */
+} 
