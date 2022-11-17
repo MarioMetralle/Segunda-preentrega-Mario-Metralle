@@ -425,6 +425,14 @@ ul{
         display: flex;
         justify-content: center;
     }
+    .contenedor_card .banner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedor_card .banner{
+       background-color:#222;
+    }
 }
 
 
