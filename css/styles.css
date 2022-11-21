@@ -183,6 +183,25 @@ transition:1s ease-out;
     
 }
 
+/*estos son los videos*/
+.video-1{
+    height: 0px;
+    padding-bottom: 56.25% ;
+    position: relative;
+}
+
+.video-1 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.videos{
+    width: 80%;
+    margin: auto;
+}
+
 
 /*este es el footer*/
 .footer {
