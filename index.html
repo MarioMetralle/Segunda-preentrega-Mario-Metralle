@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="assets/boleto.jpg" type="image/x-icon">
   <link rel="stylesheet" href="css/fontello.css">
-  
+
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,17 +19,19 @@
 </head>
 
 <body>
+  
+  <!------------------------------------------encabezado y barra de navegacion------------------------------------------------------------>
   <header class="header">
     <div class="logo-header">
-      <a href="./index.html"><h1 class="icon-ticket">ARENA TICKET</h1></a>
+      <a href="./index.html">
+        <h1 class="icon-ticket">ARENA TICKET</h1>
+      </a>
     </div>
     <div class="menu">
       <input type="checkbox" id="check">
       <label for="check" class="checkboton">
         <i class="menu-icon"><img src="./assets/menu-hamburguesa.png" alt=""></i>
       </label>
-      
-
       <ul>
         <li><a href="index.html">Musica</a></li>
         <li><a href="./pages/deportes.html">Deportes</a></li>
@@ -39,16 +41,18 @@
       </ul>
     </div>
   </header>
+
+  <!----------------------------------carrusel de imagenes---------------------------------------------------------------------->
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./assets/Aerosmith.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/Aerosmith1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img src="./assets/Iron-Maiden1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assets/metallica.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/metallica1.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -60,70 +64,71 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
+  <!------------------------------------------------estas son las tarjetas------------------------------------------------------------->
+  <main class="contenedor-main">
     <div class="titulo">
-        <h2>LOS MAS DESTACADOS</h2>
+      <h2>LOS MAS DESTACADOS</h2>
     </div>
-    <!--estas son las tarjetas-->
     <div class="contenedor_card">
-      <div class="tarjetas">
-        <div class="card">
-          <img src="./assets/iron-maiden.jpg" alt="">
-          <h3>IRON MAIDEN</h3>
-          <p>Vuelve Maiden a la Argentina <br> con un show impresionante</p>
-          <a href="https://www.ironmaiden.com/tours/the-future-past-tour-2023" target="_blank">COMPRAR</a>
-        </div>
-        <div class="card">
-          <img src="./assets/Aerosmith.jpg" alt="">
-          <h3>AEROSMITH</h3>
-          <p>Fechas programadas para <br> Diciembre del 2022</p>
-          <a href="https://www.aerosmith.com/" target="_blank">COMPRAR</a>
-        </div>
-        <div class="card">
-          <img src="./assets/metallica.jpg" alt="">
-          <h3>METALLICA</h3>
-          <p>La legendaria banda de trash <br> rompera todo en el estadio de River</p>
-          <a href="#">COMPRAR</a>
-        </div>
-        <div class="card">
-          <img src="./assets/stratovarius1.jpg" alt="">
-          <h3>STRATOVARIUS</h3>
-          <p>El power metal finlandes <br> dira presente en La PLata </p>
-          <a href="#">COMPRAR</a>
-        </div>
-        <div class="card">
-          <img src="./assets/Guns_and_roses.jpg" alt="">
-          <h3>GUNS N' ROSES</h3>
-          <p>Ya estan disponibles las entradas <br> para el mejor hard rock</p>
-          <a href="#">COMPRAR</a>
-        </div>
-        <div class="card">
-          <img src="./assets/rata_blancajpg.jpg" alt="">
-          <h3>RATA BLANCA</h3>
-          <p>La banda icono del heavy argentino <br>despliega toda su musica en Velez </p>
-          <a href="#">COMPRAR</a>
-        </div>
+      <div class="card">
+        <img src="./assets/iron-maiden.jpg" alt="">
+        <h3>IRON MAIDEN</h3>
+        <p>Vuelve Maiden a la Argentina <br> con un show impresionante</p>
+        <a href="https://www.ironmaiden.com/tours/the-future-past-tour-2023" target="_blank">COMPRAR</a>
       </div>
-    
-      <!----------------------------------------------------------------------------->
-      <!--este es el aside-->
-      <aside class="banner">
-        <div>
-          <a href="#"><img src="./assets/1106.jpg" alt=""></a>
-        </div>
-        <div>
-          <a href="https://www.nuclearblast.com/eu/" target="_blank"><img src="./assets/NUCLEAR-BLAST-ozzfest-knotfest-poster-7-11-17.jpg" alt=""></a>
-        </div>
-        <div>
-          <a href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank"><img src="./assets/Quilmes_a_Caballito_CMYK-02.webp" alt=""></a>
-        </div>
-        <div>
-          <a href="https://greenday.com/" target="_blank"><img src="./assets/Grenn_day.jpg" alt=""></a>
-        </div>
-      </aside>
+      <div class="card">
+        <img src="./assets/Aerosmith.jpg" alt="">
+        <h3>AEROSMITH</h3>
+        <p>Fechas programadas para <br> Diciembre del 2022</p>
+        <a href="https://www.aerosmith.com/" target="_blank">COMPRAR</a>
       </div>
-    <!-------------------------------------------------------------------------------->
-    <!--estos son los videos-->
-    <div class="titulo">
+      <div class="card">
+        <img src="./assets/metallica.jpg" alt="">
+        <h3>METALLICA</h3>
+        <p>La legendaria banda de trash <br> rompera todo en el estadio de River</p>
+        <a href="#">COMPRAR</a>
+      </div>
+      <div class="card">
+        <img src="./assets/stratovarius1.jpg" alt="">
+        <h3>STRATOVARIUS</h3>
+        <p>El power metal finlandes <br> dira presente en La PLata </p>
+        <a href="#">COMPRAR</a>
+      </div>
+      <div class="card">
+        <img src="./assets/Guns_and_roses.jpg" alt="">
+        <h3>GUNS N' ROSES</h3>
+        <p>Ya estan disponibles las entradas <br> para el mejor hard rock</p>
+        <a href="#">COMPRAR</a>
+      </div>
+      <div class="card">
+        <img src="./assets/rata_blancajpg.jpg" alt="">
+        <h3>RATA BLANCA</h3>
+        <p>La banda icono del heavy argentino <br>despliega toda su musica en Velez </p>
+        <a href="#">COMPRAR</a>
+      </div>
+    </div>
+  
+    <!----------------------------------------------este es el aside-------------------------------------------------------------->
+    <aside class="banner">
+      <div class="banner-img">
+        <a href="#"><img src="./assets/1106.jpg" alt=""></a>
+      </div>
+      <div class="banner-img">
+        <a href="https://www.nuclearblast.com/eu/" target="_blank"><img
+            src="./assets/NUCLEAR-BLAST-ozzfest-knotfest-poster-7-11-17.jpg" alt=""></a>
+      </div>
+      <div class="banner-img">
+        <a href="https://www.cerveceriaymalteriaquilmes.com/" target="_blank"><img
+            src="./assets/Quilmes_a_Caballito_CMYK-02.webp" alt=""></a>
+      </div>
+      <div class="banner-img">
+        <a href="https://greenday.com/" target="_blank"><img src="./assets/Grenn_day.jpg" alt=""></a>
+      </div>
+    </aside>
+  
+    <!-----------------------------------------estos son los videos------------------------------------------------------------->
+    <div class="titulo-vid">
       <h2> ANDA CALENTANDO MOTORES </h2>
     </div>
     <div class="videos">
@@ -138,16 +143,25 @@
           allowfullscreen></iframe>
       </div>
     </div>
-    <!--este es el footer-->
+  </main>
+  <!---------------------------------------------este es el footer------------------------------------------------------------------>
   <footer class="footer">
     <div class="div-footer">
       <div class="box">
-        <a href="#"><h2 class="icon-ticket">Arena Ticket</h2></a>
+        <a href="#">
+          <h2 class="icon-ticket">Arena Ticket</h2>
+        </a>
       </div>
       <div class="box">
-        <a href="#"><h3>Preguntas frecuentes</h3></a>
-        <a href="#"><h3>Trabaja con nosotros</h3></a>
-        <a href="./pages/aviso-legal.html"><h3>Aviso legal</h3></a>
+        <a href="#">
+          <h3>Preguntas frecuentes</h3>
+        </a>
+        <a href="#">
+          <h3>Trabaja con nosotros</h3>
+        </a>
+        <a href="./pages/aviso-legal.html">
+          <h3>Aviso legal</h3>
+        </a>
       </div>
       <div class="seguinos">
         <h2> Seguinos </h2>
@@ -167,6 +181,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
